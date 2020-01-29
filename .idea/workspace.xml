@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc0ab747-6eea-4bf1-9c7c-b88a15e867ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.clasprc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.clasprc.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\filip\Documents\GitHub\Jappy\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WlAnZQaUPgw1Jjpft1PWxjb3Ns" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\Documents\GitHub\Jappy" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc0ab747-6eea-4bf1-9c7c-b88a15e867ff" name="Default Changelist" comment="" />
+      <created>1579713974346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579713974346</updated>
+      <workItem from="1579713977284" duration="7000" />
+      <workItem from="1579714089325" duration="4705000" />
+      <workItem from="1579719986014" duration="2894000" />
+      <workItem from="1579795022274" duration="243000" />
+      <workItem from="1579802410176" duration="10086000" />
+      <workItem from="1579871400708" duration="3720000" />
+      <workItem from="1579877166113" duration="12738000" />
+      <workItem from="1579911257058" duration="156000" />
+      <workItem from="1579957901221" duration="3921000" />
+      <workItem from="1579962259143" duration="95000" />
+      <workItem from="1579962388714" duration="5747000" />
+      <workItem from="1579975837265" duration="6853000" />
+      <workItem from="1580052762904" duration="65000" />
+      <workItem from="1580132911158" duration="7093000" />
+      <workItem from="1580145830720" duration="8216000" />
+      <workItem from="1580184131425" duration="11000" />
+      <workItem from="1580218500860" duration="21333000" />
+      <workItem from="1580263677417" duration="68000" />
+      <workItem from="1580304408731" duration="2981000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1579716209747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579716209747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modulo Planilhas">
+      <created>1579961339884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579961339884</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modulo Planilhas">
+      <created>1579984861984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579984861984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modulo Planilhas">
+      <created>1579984872322</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579984872322</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modulo Planilhas">
+      <created>1579986191380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579986191380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modulo Planilhas">
+      <created>1580153686410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580153686410</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modulo Planilhas">
+      <created>1580158047658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580158047658</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modulo Planilhas">
+      <created>1580158995878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580158995878</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modulo Planilhas">
+      <created>1580226269852</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580226269852</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Modulo Planilhas">
+      <created>1580240979226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580240979227</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modulo Planilhas">
+      <created>1580245219963</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580245219963</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Finalização do projeto">
+      <created>1580306953138</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580306953138</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Modulo Planilhas" />
+    <MESSAGE value="Finalização do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização do projeto" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="332" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579714463642">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="332" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1579714463642" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1580306951621">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580306951621" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1579911405246">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1579911405246" />
+    <state x="373" y="11" key="SettingsEditor" timestamp="1580133790681">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="373" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580133790681" />
+    <state x="266" y="109" key="Vcs.Push.Dialog.v2" timestamp="1580307127953">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="266" y="109" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580307127953" />
+    <state x="441" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580133400996">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="441" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1580133400996" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1580222424259">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1580222424259" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580219701779">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580219701779" />
+  </component>
+</project>
