@@ -1,5 +1,6 @@
 function main() {
-  var plan = planilha('1AMwWCGbRUGUFCo73lGp-FgyyjIq7Wyljvyjjd0jLw0w');
-  plan.setValor('pagina01','Coisa rápida','A1');
-  return 'ok';
+  var conn = new  Mysqlcon('45.225.15.203','11306','mkradius','qti.gscripts','axevonay8032$');
+  conn = conn.getMetadata('select * from sis_notas;');
+  console.log(conn);
+  return conn.metadata;
 }

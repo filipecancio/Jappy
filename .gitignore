@@ -1,5 +1,7 @@
 .clasprc.json
 creds.json
+.idea
+.idea/workspace.xml
 
 # Logs
 logs
