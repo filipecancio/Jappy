@@ -4,6 +4,12 @@
 Array.prototype.isMatrix = function(){
     return this.matrix = true;
 };
+/**Limpa valores nulos de matriz
+* @return {Array} Array sem valores nulos
+**/
+Array.prototype.trim = function(){
+    return this.filter(isntNull);
+};
 /**Executa somente se o array é matriz, do contrário, retorna -1
 * @return {boolean}
 **/

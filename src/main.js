@@ -1,6 +1,6 @@
 function main() {
-  var conn = new  Mysqlcon('45.225.15.203','11306','mkradius','qti.gscripts','axevonay8032$');
-  conn = conn.getMetadata('select * from sis_notas;');
-  console.log(conn);
-  return conn.metadata;
+  //var plan = planilha('1AMwWCGbRUGUFCo73lGp-FgyyjIq7Wyljvyjjd0jLw0w');
+  //var a = plan.getIntervaloPorColuna('pagina01','Código');
+  var a = [1,2,3,4,5]
+  return a.join([3,5,7]);
 }

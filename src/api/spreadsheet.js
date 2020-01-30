@@ -23,7 +23,7 @@ Planilha.prototype.getIntervalo = function (name,notation) {
     notation = notation.a1notation();
     return this.paginas[name].getRange(notation).getDisplayValues();
 }
-/**Coleta o intervalo de uma página em matriz
+/**Coleta a coluna de uma página em matriz
 * @param {String} nome da página
 * @param {String} notação A1
 * @param {number} linha do cabeçalho (opicional).
@@ -34,7 +34,7 @@ Planilha.prototype.getIntervaloPorColuna = function (name,coluna,key) {
     key = this.paginas[name].getRange(key+':'+key).getDisplayValues();
     key = key[0].indexOf(coluna)+1;
     key = key.a1notation();
-    return this.paginas[name].getRange(notation).getDisplayValues();
+    return this.paginas[name].getRange(key+':'+key).getDisplayValues();
 }
 
 /**Coleta o intervalo  completo de uma página em matriz
