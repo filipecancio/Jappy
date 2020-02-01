@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "logar" : "clasp login --creds creds.json",
-    "main": "clasp push && clasp run main"
+    "main": "clasp push && clasp run main",
+    "deploy": "clasp version"
   }
 }

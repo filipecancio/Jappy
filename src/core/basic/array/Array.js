@@ -107,9 +107,83 @@ Array.prototype.translar = function (inter) {
     inter = [notacao[0],notacao[1],Math.abs(inter[0]-inter[2])+notacao[0],Math.abs(inter[1]-inter[3])+notacao[1]];
     return intervalo(inter);
 };
+/**Converte os elementos de um array, se possível
+ * @return {Array}
+ */
 Array.prototype.parseFloat = function(){
     return this.map(function(i){
         var temp = parseFloat(i);
         return isNaN(temp) ? i : temp
     }).filter(isntNull);
+};
+/**Coleta indice de coluna
+ * @param {string|number} Nome da coluna.
+ * @param {number} Linha onde o nome da coluna se encontra (padrão = 0).
+ * @returns Coluna correspondente.
+*/
+Array.prototype.getIndexColuna = function(nome,lin){
+    lin = lin == undefined ? 0 : lin;
+    return this[lin].indexOf(nome);
 }
+/**Coleta valores de coluna
+ * @param {string|number} Nome ou index da coluna.
+ * @param {number} Linha onde o nome da coluna se encontra (padrão = 0).
+ * @returns Coluna correspondente.
+*/
+Array.prototype.getColuna = function(nome,lin){
+    lin = lin == undefined ? 0 : lin;
+    var col = typeof nome == 'number' ? nome : this[lin].indexOf(nome);
+    if(col <0) throw new Error("Coluna '"+nome+"' não encontrada.");
+    return this.map(function(element){return element[col]});
+}
+/**Coleta os indices de linha
+ * @param {String} Nome da linha.
+ * @param {number} Coluna onde o nome da linha se encontra (padrão = 0).
+ * @returns Linha ou conjunto de linhas correspondentes.
+*/
+Array.prototype.getIndexLinha = function(nome,col){
+    col = col == undefined ? 0 : col;
+    var lin = this.map(function(element,index){
+        if(element[col].indexOf(nome) > -1) return index;
+    }).filter(isntNull);
+    if(lin.length > 1) return lin;
+    if(lin.length == 1) return lin[0];
+    throw new Error("Linha '"+nome+"' não encontrada.");
+}
+/**Coleta valores de linha
+ * @param {String} Nome da linha.
+ * @param {number} Coluna onde o nome da linha se encontra (padrão = 0).
+ * @returns Linha ou conjunto de linhas correspondentes.
+*/
+Array.prototype.getLinha = function(nome,col,lin){
+    var array = this;
+    var lin = this.getIndexLinha(nome,col,lin);
+    if(typeof lin == 'number') return array[lin];
+    return lin.map(function(lin){return array[lin];});
+}
+/*
+
+Array.prototype.getLinha = function(nome,col,lin){
+    col = col == undefined ? 0 : col;
+    lin = lin == undefined ? 0 : lin;
+    col = typeof lin == 'number' ? col : array[lin].indexOf(col);
+    var lin = this.map(function(element,index){
+        if(element[col].indexOf(nome) > -1) return index;
+    }).filter(isntNull);
+    if(lin.length == 0) throw new Error("Linha '"+nome+"' não encontrada.");
+    if(lin.length == 1) return lin[0];
+    return lin;
+};
+Array.prototype.getLinhaValues = function(nome,col,lin){
+    var array = this;
+    var lin = this.getLinha(nome,col,lin);
+    if(typeof lin == 'number') return array[lin];
+    return lin.map(function(lin){return array[lin];});
+}
+Array.prototype.getColuna = function(nome,header){
+    header = header == undefined ? 0 : header;
+    var col = this[header].indexOf(nome);
+    if(col <0) throw new Error("Coluna '"+nome+"' não encontrada.");
+    return this.map(function(element){return element[col]});
+};
+*/
