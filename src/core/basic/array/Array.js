@@ -107,3 +107,9 @@ Array.prototype.translar = function (inter) {
     inter = [notacao[0],notacao[1],Math.abs(inter[0]-inter[2])+notacao[0],Math.abs(inter[1]-inter[3])+notacao[1]];
     return intervalo(inter);
 };
+Array.prototype.parseFloat = function(){
+    return this.map(function(i){
+        var temp = parseFloat(i);
+        return isNaN(temp) ? i : temp
+    }).filter(isntNull);
+}

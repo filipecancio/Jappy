@@ -61,6 +61,19 @@ Planilha.prototype.setValor = function (name,value,notation) {
     this.paginas[name].getRange(notation).setValues(value);
     return 'ok';
 };
+/**Deleta linhas por um conjunto de condições
+* @param {String} nome da pagina
+* @param {String} nome da coluna
+* @param {String} nome da condição
+* @param {String} (opcional) linha do cabeçalho
+* */
+Planilha.prototype.deletarPorCondicao = function(pagina,coluna,condicao,key){
+    var coluna = this.getIntervaloPorColuna(pagina,coluna,key);
+    coluna = coluna.map(function(element,index){return [index,element];})
+        .reverse()
+        .filter(function(element){return element[1]==condicao;});
+    coluna.map(function(element){this.paginas[pagina].deleteRow(element[0]+1);});
+}
 /**Instancia o objeto Planilha
 * @param {String} id da planilha
 * @return {Planilha} Objeto Planilha

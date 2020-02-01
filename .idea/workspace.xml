@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc0ab747-6eea-4bf1-9c7c-b88a15e867ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.clasprc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.clasprc.json" afterDir="false" />
+    <list default="true" id="dc0ab747-6eea-4bf1-9c7c-b88a15e867ff" name="Default Changelist" comment="Finalização do projeto">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/spreadsheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/spreadsheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/basic/array/Array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/basic/array/Array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +102,10 @@
       <workItem from="1580218500860" duration="21333000" />
       <workItem from="1580263677417" duration="68000" />
       <workItem from="1580304408731" duration="2981000" />
+      <workItem from="1580384402477" duration="207000" />
+      <workItem from="1580403464512" duration="2262000" />
+      <workItem from="1580413443854" duration="734000" />
+      <workItem from="1580491285508" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1579716209747</created>
@@ -214,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="332" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1579714463642" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1580306951621">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1580384642337">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580306951621" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580384642337" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1579911405246">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
