@@ -101,8 +101,6 @@ Array.prototype.a1notationToArray = function () {
 Array.prototype.translar = function (inter) {
     var notacao = this.a1notationToArray();
     inter = inter.a1notationToArray();
-    console.log(inter);
-    Logger.log(inter);
     if (inter.length < 4) inter = [inter[0],inter[1],inter[0],inter[1]];
     inter = [notacao[0],notacao[1],Math.abs(inter[0]-inter[2])+notacao[0],Math.abs(inter[1]-inter[3])+notacao[1]];
     return intervalo(inter);
@@ -161,29 +159,12 @@ Array.prototype.getLinha = function(nome,col,lin){
     if(typeof lin == 'number') return array[lin];
     return lin.map(function(lin){return array[lin];});
 }
-/*
-
-Array.prototype.getLinha = function(nome,col,lin){
-    col = col == undefined ? 0 : col;
-    lin = lin == undefined ? 0 : lin;
-    col = typeof lin == 'number' ? col : array[lin].indexOf(col);
-    var lin = this.map(function(element,index){
-        if(element[col].indexOf(nome) > -1) return index;
-    }).filter(isntNull);
-    if(lin.length == 0) throw new Error("Linha '"+nome+"' não encontrada.");
-    if(lin.length == 1) return lin[0];
-    return lin;
-};
-Array.prototype.getLinhaValues = function(nome,col,lin){
-    var array = this;
-    var lin = this.getLinha(nome,col,lin);
-    if(typeof lin == 'number') return array[lin];
-    return lin.map(function(lin){return array[lin];});
-}
-Array.prototype.getColuna = function(nome,header){
-    header = header == undefined ? 0 : header;
-    var col = this[header].indexOf(nome);
-    if(col <0) throw new Error("Coluna '"+nome+"' não encontrada.");
-    return this.map(function(element){return element[col]});
-};
+/**Remove do array a coluna correspondente
+ * @param {string|number} Nome ou index da coluna.
+ * @param {number} Linha onde o nome da coluna se encontra (padrão = 0).
+ * @returns Array com a coluna removida.
 */
+Array.prototype.excluirColuna = function(nome,lin){
+    nome = typeof nome == 'string' ? this.getIndexColuna(nome,lin):nome;
+    this.map(function(element){element.splice(nome,1)});
+}

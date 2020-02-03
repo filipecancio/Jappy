@@ -31,8 +31,6 @@ Intervalo.prototype.a1notationToArray = function () {
 Intervalo.prototype.translar = function (inter) {
     var notacao = this.a1notationToArray();
     inter = inter.a1notationToArray();
-    console.log(inter);
-    Logger.log(inter);
     if (inter.length < 4) inter = [inter[0],inter[1],inter[0],inter[1]];
     inter = [notacao[0],notacao[1],Math.abs(inter[0]-inter[2])+notacao[0],Math.abs(inter[1]-inter[3])+notacao[1]];
     return intervalo(inter);

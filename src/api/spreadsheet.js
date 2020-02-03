@@ -61,6 +61,25 @@ Planilha.prototype.setValor = function (name,value,notation) {
     this.paginas[name].getRange(notation).setValues(value);
     return 'ok';
 };
+/**Insere uma matriz em um intervalo de uma página
+* @param {String} nome da página
+* @param {Array|String} valores da planilha
+* @param {Array|String} notação em string "A1" ou [row,col].
+* @param {String} notação A1
+* */
+Planilha.prototype.insertValor = function (name,value,notation) {
+    if(value.length == 0) return 'ok';
+    value = value.toMatrix();
+    notation = notation.a1notation();
+    var anchor = value.matrixLength();
+    var howMany = anchor[0];
+    anchor = [1,1,anchor[0],anchor[1]].a1notation();
+    notation = notation.translar(anchor)
+    this.paginas[name].insertRows(notation.inicio.lin,howMany);
+    notation = notation.a1notation();
+    this.paginas[name].getRange(notation).setValues(value);
+    return 'ok';
+};
 /**Deleta linhas por um conjunto de condições
 * @param {String} nome da pagina
 * @param {String} nome da coluna
