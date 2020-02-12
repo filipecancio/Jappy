@@ -2,11 +2,22 @@
   "timeZone": "America/Argentina/Buenos_Aires",
   "dependencies": {},
   "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion" : "V8",
   "executionApi": {
     "access": "ANYONE"
   },
   "oauthScopes": [
+    "https://www.googleapis.com/auth/cloud-platform",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive.metadata.readonly",
+    "https://www.googleapis.com/auth/logging.read",
+    "https://www.googleapis.com/auth/script.deployments",
+    "https://www.googleapis.com/auth/script.projects",
+    "https://www.googleapis.com/auth/script.webapp.deploy",
+    "https://www.googleapis.com/auth/service.management",
     "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/script.external_request"
+    "https://www.googleapis.com/auth/devstorage.full_control",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/forms"
   ]
 }
